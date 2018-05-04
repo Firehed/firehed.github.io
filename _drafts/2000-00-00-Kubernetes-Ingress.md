@@ -1,0 +1,1 @@
+tl;dr: creating an Ingress resource won't do anything until you create an Ingress Controller. Unlike basically everything else in k8s, one isn't preconfigured out of the box (at least in GKE). follow [this guide](https://kubernetes.github.io/ingress-nginx/deploy/) and it should magically start working.
